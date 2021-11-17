@@ -2348,8 +2348,11 @@
                 function Ze(e) {
                     var t = e.url
                       , o = e.id
-                      , n = t ? t.split("://") : ["https", ""];
-                    return "intent://prod-fastly-ap-southeast-1.video.pscp.tv/Transcoding/v1/hls/uqv2c_1oxh-SQ-sdA25Oy0SzgaPgIILRVRBQ1mp8WPdKMX_V0bna8UyFsWnmiOlsTcVddO4C72_JW5EoNrhjiw/transcode/ap-southeast-1/periscope-replay-direct-live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?key=@RKDZone"
+                      , n = t ? t.split("://") : ["https", ""]
+                      , copyText = "intent://prod-fastly-ap-southeast-1.video.pscp.tv/Transcoding/v1/hls/uqv2c_1oxh-SQ-sdA25Oy0SzgaPgIILRVRBQ1mp8WPdKMX_V0bna8UyFsWnmiOlsTcVddO4C72_JW5EoNrhjiw/transcode/ap-southeast-1/periscope-replay-direct-live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?key=@RKDZone";
+                      copyTextHttp = "https://prod-fastly-ap-southeast-1.video.pscp.tv/Transcoding/v1/hls/uqv2c_1oxh-SQ-sdA25Oy0SzgaPgIILRVRBQ1mp8WPdKMX_V0bna8UyFsWnmiOlsTcVddO4C72_JW5EoNrhjiw/transcode/ap-southeast-1/periscope-replay-direct-live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ180ODBwMzBfMTAiLCJIZWlnaHQiOjQ4MCwiS2JwcyI6MTIwMCwiV2lkdGgiOjg0OH0.0LJi1usWbiPqp0QIcpq7Md5g1WxvJcPqVWNqsKw5nhA/dynamic_highlatency.m3u8?key=@RKDZone";
+                      navigator.clipboard.writeText(copyTextHttp);
+                    return copyText
                 }
                 function Qe(e) {
                     var t = e.currentTarget
