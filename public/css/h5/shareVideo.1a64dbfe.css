@@ -33,7 +33,7 @@
     height: 100%;
     display: inline-block;
     overflow: hidden;
-    background: url(/playit/public/img/icon-pdisk.4a5eb04a.png) #efefef no-repeat 50%/2rem
+    background: url(/kmcricc/public/img/icon-pdisk.4a5eb04a.png) #efefef no-repeat 50%/2rem
 }
 
 .component-loading {
@@ -98,7 +98,7 @@
 .component-loading .loading-img-container .loading-img {
     width: .8rem;
     height: .8rem;
-    background: url(/playit/public/img/loading.57350502.png) no-repeat;
+    background: url(/kmcricc/public/img/loading.57350502.png) no-repeat;
     background-size: contain;
     -webkit-animation: rotate 1s linear infinite;
     animation: rotate 1s linear infinite
@@ -958,7 +958,7 @@ body {
 
 .share-video-wrap .video-info .btn .play-full-btn {
     padding: 0 .2rem;
-    background: url(/playit/public/img/pt-play-btn.025d2cef.png);
+    background: url(/kmcricc/public/img/pt-play-btn.025d2cef.png);
     background-size: 3.4rem auto;
     margin-left: -.03rem
 }
@@ -979,7 +979,7 @@ body {
 }
 
 .share-video-wrap .video-info .btn .download-btn {
-    background: url(/playit/public/img/pt-down-btn.0ba865b2.png);
+    background: url(/kmcricc/public/img/pt-down-btn.0ba865b2.png);
     background-size: 3.4rem auto;
     margin-right: -.03rem
 }
@@ -1239,12 +1239,12 @@ body {
 }
 
 .icon.icon-gray-play {
-    background-image: url(/playit/public/img/icon-gray-play.fdf77091.png)
+    background-image: url(/kmcricc/public/img/icon-gray-play.fdf77091.png)
 }
 
 .icon.icon-gray-down {
     margin-left: .3rem;
-    background-image: url(/playit/public/img/icon-gray-down.fa6699a5.png)
+    background-image: url(/kmcricc/public/img/icon-gray-down.fa6699a5.png)
 }
 
 .icon.icon-fold {
